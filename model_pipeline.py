@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LinearRegression
 
 # Load data
-df = pd.read_csv("/home/kristo/house_web/Housing.csv")
+df = pd.read_csv("Housing.csv")
 
 X = df.drop('price', axis=1)
 y = df['price']
